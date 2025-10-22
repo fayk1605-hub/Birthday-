@@ -5,6 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mumtahina | Our Journey</title>
     <link rel="stylesheet" href="style.css">
+<style>
+
+    /* GLOBAL STYLES - Apply to ALL pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333;
+}
+
+/* NAVIGATION STYLES */
+nav {
+    background-color: #ff6f91; /* Pink color for the nav bar */
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd1dc; /* Lighter pink on hover */
+}
+
+/* MAIN CONTENT STYLES */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* ANIMATION EXAMPLE - Fade-In Class */
+.fade-in {
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Start slightly below final position */
+    animation: fadeIn 1.5s ease-out forwards; /* Run the animation */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
 </head>
 <body>
     <nav>
